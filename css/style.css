@@ -19,13 +19,13 @@ body {
 .col {
   margin: 80px 0 80px 0; }
 
-p {
-  padding: 10px 0 10px 0; }
-
 h2 {
   padding: 0 0 20px 0; }
 
 .small-info {
   font-size: 12px; }
+
+.color-details {
+  padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
