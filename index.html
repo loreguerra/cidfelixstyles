@@ -4,7 +4,7 @@
   <title>CID/Felix style reference</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <script src="js/main.js"></script>
 </head>
 
 
@@ -17,9 +17,9 @@
 <div class="row pull-left">
   <div class="col col-md-4">
   <h2>Web colors</h2>
-  <p><span class="green">CID green</span> #07a6aa <button>copy</button></p>
-  <p><span class="blue">Felix blue</span> #173D75 <button>copy</button></p>
-  <p><span class="teal">Teal highlight</span> #07a6aa <button>copy</button></p>
+  <p><span class="green">CID green</span><span id="value1"> #539a43</span> <button onclick="copyToClipboard('value1')">copy</button></p>
+  <p><span class="blue">Felix blue</span> <span id="value2">#173D75 </span><button onclick="copyToClipboard('value2')">copy</button></p>
+  <p><span class="teal">Teal highlight</span> <span id="value3">#07a6aa</span> <button onclick="copyToClipboard('value3')">copy</button></p>
 </div>
 
 
