@@ -1,7 +1,13 @@
-@import "helpers/variables";
+@import "helpers/variables", "helpers/mixins", "helpers/placeholders";
+
 
 body{
   font-family: Arial, sans-serif;
   padding: 50px;
   font-size: 18px;
+}
+
+.green{
+  @include span-class('green');
+  @extend %white-text-padding;
 }

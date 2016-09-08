@@ -1,7 +1,13 @@
+.green {
+  color: white;
+  padding: 5px; }
+
 body {
   font-family: Arial, sans-serif;
   padding: 50px;
-  font-size: 18px;
-  color: #07a6aa; }
+  font-size: 18px; }
+
+.green {
+  background-color: #539A43; }
 
 /*# sourceMappingURL=style.css.map */

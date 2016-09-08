@@ -1,0 +1,11 @@
+@mixin span-class($class){
+  @if ($class == 'green'){
+    background-color: $green;
+  }
+  @elseif ($class == 'blue'){
+      background-color: $blue;
+    }
+  @else {
+        background-color: $teal;
+      }
+}
