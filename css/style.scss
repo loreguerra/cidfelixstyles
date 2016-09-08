@@ -11,3 +11,25 @@ body{
   @include span-class('green');
   @extend %white-text-padding;
 }
+
+.blue{
+  @include span-class('blue');
+  @extend %white-text-padding;
+}
+
+.teal{
+  @include span-class('teal');
+  @extend %white-text-padding;
+}
+
+div{
+  margin: 80px 0 80px 0;
+}
+
+p{
+  margin: 30px 0 30px 0;
+}
+
+.small-info{
+  font-size: 12px;
+}
